@@ -1,8 +1,6 @@
 [ ![Project Management](https://img.shields.io/badge/Project%20Management-0052CC?style=for-the-badge&logo=trello&logoColor=white) ](https://trello.com/b/crIQuEeA)
 [![License Badge](https://img.shields.io/badge/Apache%202.0-F25910.svg?style=for-the-badge&logo=Apache&logoColor=white) ](https://www.apache.org/licenses/LICENSE-2.0)
 
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=QubitPi_circe&metric=coverage)](https://sonarcloud.io/summary/new_code?id=QubitPi_circe)
-
 Circe
 =====
 
@@ -24,8 +22,10 @@ Circe offers assorted UDFs:
 Binaries (How to Get It)
 ------------------------
 
-Binaries for Circe are stored in GitHub Package. To install an circe from GitHub Packages, edit the pom.xml file to
-include the package as a dependency:
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=QubitPi_circe&metric=coverage)](https://sonarcloud.io/summary/new_code?id=QubitPi_circe)
+
+Binaries for Circe are stored in [GitHub Package](https://github.com/QubitPi/circe/packages/1520507). To install an
+circe from GitHub Packages, edit the pom.xml file to include the package as a dependency:
 
 ```xml
 <dependencies>
