@@ -22,7 +22,9 @@ Circe offers assorted UDFs:
 Binaries (How to Get It)
 ------------------------
 
+[![ci](https://github.com/QubitPi/circe/actions/workflows/release.yml/badge.svg?branch=master)](https://github.com/QubitPi/circe/actions/workflows/release.yml)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=QubitPi_circe&metric=coverage)](https://sonarcloud.io/summary/new_code?id=QubitPi_circe)
+
 
 Binaries for Circe are stored in [GitHub Package](https://github.com/QubitPi/circe/packages/1520507). To install an
 circe from GitHub Packages, edit the pom.xml file to include the package as a dependency:
