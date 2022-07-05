@@ -3,6 +3,8 @@
 Circe
 =====
 
+<img src="https://user-images.githubusercontent.com/16126939/177264366-e855129d-69c5-459d-abdd-a8248a26f45f.png" width="200" />
+
 Circe(named on the Greek goddess of transformation) is a collection of Apache Pig UDF's.
 
 Apache Pig provides extensive support for user defined functions (UDFs) as a way to specify custom processing. The UDFs
