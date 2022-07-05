@@ -1,4 +1,4 @@
-name: Publish Circe to GitHub Packages
+name: Release Circe to GitHub Packages
 
 on:
   push:
