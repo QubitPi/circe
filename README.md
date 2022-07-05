@@ -4,7 +4,7 @@
 Circe
 =====
 
-<img src="https://user-images.githubusercontent.com/16126939/177264366-e855129d-69c5-459d-abdd-a8248a26f45f.png" width="200" />
+<img src="https://user-images.githubusercontent.com/16126939/177283778-250f7fb0-16c1-47a3-9512-30fb03054bed.png" width="200" />
 
 Circe(named on the Greek goddess of transformation) is a collection of Apache Pig UDF's.
 
