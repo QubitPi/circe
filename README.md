@@ -21,9 +21,10 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=QubitPi_circe&metric=bugs)](https://sonarcloud.io/summary/new_code?id=QubitPi_circe)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=QubitPi_circe&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=QubitPi_circe)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=QubitPi_circe&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=QubitPi_circe)
-</div>
 
-[git history](./gource/gource.mp4)
+https://user-images.githubusercontent.com/16126939/179881795-cf3b51ef-9748-43e3-8f3b-86be59538187.mp4
+
+</div>
 
 Circe
 =====
