@@ -23,6 +23,8 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=QubitPi_circe&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=QubitPi_circe)
 </div>
 
+[git history](./gource/gource.mp4)
+
 Circe
 =====
 
