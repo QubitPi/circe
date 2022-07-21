@@ -7,7 +7,7 @@
     <groupId>com.qubitpi</groupId>
     <artifactId>circe</artifactId> <!-- https://stackoverflow.com/a/64363671/14312712 -->
     <packaging>jar</packaging>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <name>circe</name>
     <description>A collection of Apache Pig UDF's</description>
     <url>https://github.com/QubitPi/circe</url>
