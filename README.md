@@ -5,9 +5,6 @@ Circe <sup>![Java Version Badge][Java Version Badge]</sup>
 [![GitHub Workflow Status][GitHub Workflow Status]](https://github.com/QubitPi/circe/actions/workflows/ci-cd.yml)
 ![Last Commit](https://img.shields.io/github/last-commit/QubitPi/circe/master?logo=github&style=for-the-badge)
 [![Apache License Badge]](https://www.apache.org/licenses/LICENSE-2.0)
-![GitHub Actions Badge][GitHub Actions Badge]
-![HashiCorp Packer Badge][HashiCorp Packer Badge]
-![HashiCorp Terraform Badge][HashiCorp Terraform Badge]
 
 <a href="https://sonarcloud.io/summary/new_code?id=QubitPi_circe">
     <img
@@ -41,8 +38,8 @@ supported such as the Algebraic Interface and the Accumulator Interface.
 
 Circe offers assorted UDFs:
 
-* [HBase Storage Optimizer](https://qubitpi.github.io/circe/apidocs/com/qubitpi/circe/Md5Hash.html)
-* [HBase row key hashing](https://qubitpi.github.io/circe/apidocs/com/qubitpi/circe/AvroPacker.html)
+* [HBase Storage Optimizer](https://qubitpi.github.io/circe/com/qubitpi/circe/Md5Hash.html)
+* [HBase row key hashing](https://qubitpi.github.io/circe/com/qubitpi/circe/AvroPacker.html)
 
 License
 -------
