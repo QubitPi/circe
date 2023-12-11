@@ -38,8 +38,8 @@ supported such as the Algebraic Interface and the Accumulator Interface.
 
 Circe offers assorted UDFs:
 
-* [HBase Storage Optimizer](https://qubitpi.github.io/circe/apidocs/com/qubitpi/circe/Md5Hash.html)
-* [HBase row key hashing](https://qubitpi.github.io/circe/apidocs/com/qubitpi/circe/AvroPacker.html)
+* [HBase Storage Optimizer](https://qubitpi.github.io/circe/com/qubitpi/circe/Md5Hash.html)
+* [HBase row key hashing](https://qubitpi.github.io/circe/com/qubitpi/circe/AvroPacker.html)
 
 License
 -------
