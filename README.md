@@ -28,13 +28,9 @@ Circe <sup>![Java Version Badge][Java Version Badge]</sup>
 [![Reliability Rating][Sonar Reliability Rating]](https://sonarcloud.io/summary/new_code?id=QubitPi_circe)
 [![Technical Debt][Sonar Technical Debt]](https://sonarcloud.io/summary/new_code?id=QubitPi_circe)
 
-Circe(named on the Greek goddess of transformation) is a collection of Apache Pig UDF's.
-
-Apache Pig provides extensive support for user defined functions (UDFs) as a way to specify custom processing. The UDFs
-can be implemented in multiple languages, among which Java is supported most extensively. All parts of the processing
-including data load/store, column transformation, and aggregation can be customized. Java functions are also more
-efficient because they are implemented in the same language as Apache Pig and because additional interfaces are
-supported such as the Algebraic Interface and the Accumulator Interface.
+Circe(named on the Greek goddess of transformation) is a collection of Apache Pig UDF's. It offers a package of
+"Filter" function, as in Pipes and Filters architectural pattern (_Pattern-Oriented Software Architecture - Volume 1, A 
+System of Patterns_) for Apache Pig's pipeline processing.
 
 Circe offers assorted UDFs:
 
