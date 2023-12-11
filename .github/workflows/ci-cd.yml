@@ -7,18 +7,18 @@ name: Build
       - master
 
 env:
-  JDK_VERSION: 11
+  JDK_VERSION: 17
   JDK_DISTRIBUTION: 'adopt'
   USER: QubitPi
   EMAIL: jack20220723@gmail.com
 
 jobs:
-#  mk-yml-style-check:
-#    uses: QubitPi/hashicorp-aws/.github/workflows/yml-and-md-style-checks.yml@master
+  mk-yml-style-check:
+    uses: QubitPi/hashicorp-aws/.github/workflows/yml-and-md-style-checks.yml@master
 
   tests:
     name: Unit Tests
-    # needs: mk-yml-style-check
+    needs: mk-yml-style-check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
