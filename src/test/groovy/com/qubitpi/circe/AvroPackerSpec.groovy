@@ -59,6 +59,21 @@ class AvroPackerSpec extends Specification {
         udf = new AvroPacker(schema, "")
     }
 
+    def "A null tuple gets serialized into null"() {
+        expect:
+        udf.exec(null) == null
+    }
+
+    def "An empty tuple gets serialized into null"() {
+        given: "a tuple whose size is 0"
+        Tuple tuple = Mock(Tuple) {
+            size() >> 0
+        }
+
+        expect: "the tuple serializes to null"
+        udf.exec(tuple) == null
+    }
+
     def "UDF serializes a tuple into an deserializable Avro record"() {
         given: "a tuple of 3 columns with values"
         Tuple tuple = TupleFactory.getInstance().newTuple(3)
