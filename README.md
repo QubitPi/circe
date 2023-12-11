@@ -29,7 +29,7 @@ Circe <sup>![Java Version Badge][Java Version Badge]</sup>
 [![Technical Debt][Sonar Technical Debt]](https://sonarcloud.io/summary/new_code?id=QubitPi_circe)
 
 Circe(named on the Greek goddess of transformation) is a collection of Apache Pig UDF's. It offers a package of
-"Filter" function, as in Pipes and Filters architectural pattern (_Pattern-Oriented Software Architecture - Volume 1, A 
+"Filter" function, as in Pipes and Filters architectural pattern (_Pattern-Oriented Software Architecture - Volume 1, A
 System of Patterns_) for Apache Pig's pipeline processing.
 
 Circe offers assorted UDFs:
