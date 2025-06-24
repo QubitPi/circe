@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.qubitpi.circe;
+package org.qubitpi.hadooplatin;
 
 import org.apache.avro.Schema;
 import org.apache.avro.generic.GenericData;
@@ -52,7 +52,7 @@ import java.util.Objects;
  * <pre>
  * {@code
  * REGISTER UDF-<version>.jar;
- * DEFINE AvroPacker com.qubitpi.circe.AvroPacker('schema.avsc', '/path/to/schema.avsc');
+ * DEFINE AvroPacker org.qubitpi.hadooplatin.AvroPacker('schema.avsc', '/path/to/schema.avsc');
  *
  * relation =
  *     FOREACH relation

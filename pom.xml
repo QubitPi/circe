@@ -4,13 +4,13 @@
         <maven>3.0</maven>
     </prerequisites>
 
-    <groupId>com.qubitpi</groupId>
-    <artifactId>circe</artifactId> <!-- https://stackoverflow.com/a/64363671/14312712 -->
+    <groupId>org.qubitpi</groupId>
+    <artifactId>hadoop-latin</artifactId> <!-- https://stackoverflow.com/a/64363671/14312712 -->
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>circe</name>
+    <name>Hadoop Latin</name>
     <description>A collection of Apache Pig UDF's</description>
-    <url>https://github.com/QubitPi/circe</url>
+    <url>https://github.com/QubitPi/hadoop-latin</url>
 
     <developers>
         <developer>
@@ -26,14 +26,6 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub QubitPi Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/qubitpi/circe</url>
-        </repository>
-    </distributionManagement>
 
     <properties>
         <sonar.organization>qubitpi</sonar.organization>

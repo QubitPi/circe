@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.qubitpi.circe;
+package org.qubitpi.hadooplatin;
 
 import org.apache.hadoop.hbase.util.Bytes;
 import org.apache.hadoop.hbase.util.MD5Hash;
@@ -40,7 +40,7 @@ import java.io.IOException;
  * Example:
  * <pre>
  * {@code
- * DEFINE Md5Hash com.qubitpi.circe.Md5Hash();
+ * DEFINE Md5Hash org.qubitpi.hadooplatin.Md5Hash();
  *
  * relation =
  *     FOREACH relation
