@@ -9,7 +9,7 @@ Hadoop Latin
 [![GitHub Workflow Status]][GitHub Workflow URL]
 [![Apache License Badge]][Apache License, Version 2.0]
 
-Circe(named on the Greek goddess of transformation) is a collection of Apache Pig UDF's. It offers a package of
+__Hadoop Latin__ is a collection of Apache Pig UDF's. It offers a package of
 "Filter" function, as in Pipes and Filters architectural pattern (_Pattern-Oriented Software Architecture - Volume 1, A
 System of Patterns_) for Apache Pig's pipeline processing.
 
