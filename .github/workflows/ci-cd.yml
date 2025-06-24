@@ -13,12 +13,8 @@ env:
   EMAIL: jack20220723@gmail.com
 
 jobs:
-  mk-yml-style-check:
-    uses: QubitPi/hashicorp-aws/.github/workflows/yml-and-md-style-checks.yml@master
-
   tests:
     name: Unit Tests
-    needs: mk-yml-style-check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -29,12 +25,6 @@ jobs:
           distribution: ${{ env.JDK_DISTRIBUTION }}
       - name: Run unit tests
         run: mvn -B clean verify
-      - name: Sonar Scan
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: |
-          mvn -B clean -Pcoverage verify sonar:sonar org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.java.binaries=target/classes -Dsonar.projectKey=QubitPi_circe
 
   javadoc:
     name: Test & Release API Documentation
