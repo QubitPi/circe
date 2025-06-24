@@ -1,0 +1,19 @@
+{
+    "type" : "record",
+    "name" : "Tourist",
+    "namespace" : "org.bitbucket.jack20191124",
+    "fields" : [ {
+        "name" : "id",
+        "type" : "string",
+        "doc"  : "Record ID"
+    }, {
+        "name" : "name",
+        "type" : "string",
+        "doc"  : "Hotel name"
+    }, {
+        "name" : "rating",
+        "type" : "string",
+        "doc"  : "Hotel rating based on traveller's feedback"
+    } ],
+    "doc:" : "A basic schema for hotel"
+}
